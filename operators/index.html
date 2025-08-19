@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <form action="#">
+        <input id="theNumber" type="number" required placeholder="uaser name" value="10">
+        <button onclick="inc()">ok</button>
+    </form>
+    <script>
+        function inc() {
+            // debugger
+            let number = document.getElementById("thrNumber").value;
+            document.getElementById("demo").innerText= number++;
+          
+        }
+
+
+
+    </script>
+</body>
+
+</html>
